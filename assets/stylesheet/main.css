@@ -107,7 +107,9 @@ p {
 /*=================================*/
 /*	General Css		*/
 /*=================================*/
-
+body {
+    background-color: #E5EBF0;
+}
 .wrapper {
 	margin: 0 auto;
 	max-width: 1400px;
@@ -143,10 +145,6 @@ p {
 	float: right;
 }
 
-/*=================================*/
-/*	General Css		*/
-/*=================================*/
-
 .col-1, .col-3 {
 	width: 25%;
 }
@@ -155,6 +153,27 @@ p {
 	width: 50%;
 	margin: 0 1.5rem;
 }
+
+/*=================================*/
+/*	Aside Right		*/
+/*=================================*/
+.col-3 {
+    background-color: white;
+    border: 0;
+}
+.follow-suggest {
+    padding: 1rem;
+}
+.follow-suggest h5 ,.follow-suggest a {
+    display: inline-block;
+}
+.follow-suggest h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.00rem;
+}
+
+
 
 /*=======================================*/
 /*  Clearfix */
@@ -169,3 +188,4 @@ p {
 .cf {
 	*zoom: 1;
 }
+
