@@ -4,8 +4,6 @@
 	--text-color2: #fff;
 	--bg-color: #1e252d;
 	--accent-color: #18bfef;
-	--heading-font: 'Source Sans Pro', serif;
-	--text-font: 'Merriweather', sans-serif;
 	font-size: 16px;
 }
 
@@ -66,11 +64,10 @@ table {
 
 
 
-
-
 /*=================================*/
 /*	Base Css		*/
 /*=================================*/
+
 
 h1 {
     font-size: 5rem;
@@ -108,6 +105,9 @@ p {
 /*	General Css		*/
 /*=================================*/
 
+body {
+    background-color: #E5EBF0;
+}
 .wrapper {
 	margin: 0 auto;
 	max-width: 1400px;
@@ -126,6 +126,10 @@ p {
 .uppercase {
 	text-transform: uppercase;
 }
+
+.relative {
+	position: relative;
+}
 .center {
 	position: absolute;
 	left: 50%;
@@ -143,9 +147,31 @@ p {
 	float: right;
 }
 
+a {
+	text-decoration: none;
+}
+
+.inline-blk {
+	display: inline-block;
+}
+
+input, button {
+	border: 0;
+	background-color: #f3f3f3;
+}
+
+input, button:focus {
+	outline: 0;
+}
+
+.btn {
+
+}
+
 /*=================================*/
 /*	General Css		*/
 /*=================================*/
+
 
 .col-1, .col-3 {
 	width: 25%;
@@ -155,7 +181,15 @@ p {
 	width: 50%;
 	margin: 0 1.5rem;
 }
-<<<<<<< HEAD
+.col {
+	float: left;
+}
+
+
+/*col 1*/
+
+
+
 .header-top {
 	width: 25%;
 	height: 25%;
@@ -200,7 +234,6 @@ p {
 .white-bg {
 	height: 100px;
 	width: 250px;
-	/*border: 1px solid black;*/
 	position: relative;
 	border-bottom: 1rem solid var(--bg-color);
 }
@@ -231,7 +264,6 @@ table {
 	padding-top: 10px;
 	padding-left: 10px;
 	border-bottom: 5px solid black;
-	/*border: 1px solid;*/
 }
 .sub-header {
 	font-size: 1.1rem;
@@ -259,22 +291,10 @@ table {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-=======
-
 /*=======================================*/
 /*  Clearfix */
 /*=======================================*/
+
 .cf:before, .cf:after {
 	content: '';
 	display: table;
@@ -285,4 +305,95 @@ table {
 .cf {
 	*zoom: 1;
 }
->>>>>>> a240622cd5f68aa19b05c8d154c55cc01924a741
+
+/*==================================*/
+	/*main css*/
+/*==================================*/
+
+
+		/*header section*/
+
+
+.header {
+	position: relative;
+	line-height: 3rem;
+	background-color: var(--text-color2);
+}
+
+.profile-pic {
+	height: 2.4rem;
+	width: 2.4rem;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.menu {
+	display: inline-block;
+	color: var(--text-color)
+}
+
+.menu a {
+	margin: 0 1rem;
+	color: var(--text-color);
+}
+
+.menu i,
+.right-nav-items i {
+	color: gray;
+	margin: 0 0.6rem;
+}
+
+ul~a {
+	color: var(--accent-color)
+}
+.menu:hover {
+	border-bottom: 2px solid var(--accent-color);
+}
+
+.menu a:hover {
+	color: var(--accent-color)
+}
+
+.search-box {
+	background-color: #f3f3f3;
+	border-radius: 2.3rem;
+	width: 15rem;
+	height: 2rem;
+	border: 2px solid #eeeeeeee ;
+	padding: 0.5rem;
+	position: relative;
+	top: .5rem;
+}
+.search-box i {
+	left: 90%;
+}
+
+.search-box:checked + i {
+	border: 2px solid blue; 
+}
+
+
+
+/*=================================*/
+/*	Aside Right		*/
+/*=================================*/
+
+
+
+.col-3 {
+    background-color: white;
+    border: 0;
+    margin: 5rem 0;
+}
+.follow-suggest {
+    padding: 1rem;
+}
+.follow-suggest h5 ,.follow-suggest a {
+    display: inline-block;
+}
+
+.follow-suggest h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.00rem;
+}
