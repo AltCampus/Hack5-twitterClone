@@ -258,10 +258,11 @@ ul~a {
 	border: 2px solid #eeeeeeee ;
 	padding: 0.5rem;
 	position: relative;
-	top: .5rem;
+	top: ;
+	
 }
 .search-box i {
-	left: 90%;
+	left: 85%;
 }
 
 .search-box:checked + i {
