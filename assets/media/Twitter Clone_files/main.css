@@ -1,0 +1,214 @@
+
+:root {
+	--text-color: #212931;
+	--text-color2: #fff;
+	--bg-color: #1e252d;
+	--accent-color: #18bfef;
+	--heading-font: 'Source Sans Pro', serif;
+	--text-font: 'Merriweather', sans-serif;
+	font-size: 16px;
+}
+
+/*
+  ========================================
+  Css Reset
+  ========================================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*=================================*/
+/*	Base Css		*/
+/*=================================*/
+
+h1 {
+    font-size: 5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h6 {
+    font-size: 0.6rem;
+    line-height: 1.5;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/*=================================*/
+/*	General Css		*/
+/*=================================*/
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+
+/*=================================*/
+/*	General Css		*/
+/*=================================*/
+
+.col-1, .col-3 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 50%;
+	margin: 0 1.5rem;
+}
+<<<<<<< HEAD
+.header-top {
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	background-color: blue;
+	position: relative;
+
+}
+.profile-image-styling {
+	border-radius: 50%;
+	border: 2px solid white;
+}
+.proile-anchor-element {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.proile-anchor-element:hover {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+
+/*=======================================*/
+/*  Clearfix */
+/*=======================================*/
+.cf:before, .cf:after {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+>>>>>>> a240622cd5f68aa19b05c8d154c55cc01924a741
