@@ -157,105 +157,31 @@ p {
 }
 <<<<<<< HEAD
 .header-top {
-	width: 25%;
-	height: 25%;
-	/*padding: 20px;*/
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	background-color: blue;
+	position: relative;
+
 }
 .profile-image-styling {
 	border-radius: 50%;
 	border: 2px solid white;
-	position: absolute;
-	left:3%;
-	top: 50%;
 }
-.profile-anchor-element {
-	text-decoration: none;
-	font-size: 1.3rem;
-	font-weight: 550;
-	color: black;
-	position: absolute;
-	left: 40%;
-	top: 10%;
-}
-.primary:hover {
-	color: black;
-	text-decoration: underline;
-}
-.secondary {
-	position: absolute;
-	top: 32%;
-	font-size: 1.1rem;
-	font-weight: 300;
-}
-.secondary:hover {
-	color: black;
-	text-decoration: underline;
-}
-.blue-bg {
-	height: 80px;
-	width: 250px;
-	background-color: var(--accent-color);
-	position: relative;
-}
-.white-bg {
-	height: 100px;
-	width: 250px;
-	/*border: 1px solid black;*/
-	position: relative;
-	border-bottom: 1rem solid var(--bg-color);
-}
-table {
-  position: absolute;
-  top: 60%;
-}
-.tweet-following-followers-anchors {
-	color: grey;
-	font-size: 0.95rem;
-	padding: 0.8rem;
-	text-decoration: none;
-}
-.tweet-following-followers-anchors:hover {
-	color: var(--accent-color);
-}
-.counts {
-	color: var(--accent-color);
-	font-size: 19px;
-	text-decoration: none;
-}
-.margins {
-	border: .5rem solid var(--bg-color)
-	/*width: 25%;*/
-}
-.Trends-for-you {
-	width: 250px;
-	padding-top: 10px;
-	padding-left: 10px;
-	border-bottom: 5px solid black;
-	/*border: 1px solid;*/
-}
-.sub-header {
-	font-size: 1.1rem;
-	font-weight: 550;
-	display: inline-block;
-}
-.changing-trend-profile {
-	font-size: 0.9rem;
-	font-weight: 200;
-	padding-left: 5px;
-}
-.trends-anchor-elements {
+.proile-anchor-element {
 	display: block;
-	padding: 0.3rem 0 0.3rem 0;
 	text-decoration: none;
-	color: grey;
-	font-size: 0.9rem;
+	color: black;
 }
-.trend-anchor-color{
-	color: var(--accent-color);
-}
-.trend-anchor-color:hover {
+.proile-anchor-element:hover {
+	color: dodgerblue;
 	text-decoration: underline;
 }
+
+
+
+
+
 
 
 
