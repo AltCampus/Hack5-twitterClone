@@ -1,3 +1,7 @@
+/*		css reset 		*/
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,6 +52,42 @@ table {
 }
 
 /* =================================== */
-
+		
 
 /* =================================== */
+
+:root{
+	 font-size: 16px;
+}
+
+
+
+
+/*=================================*/
+/*	general css		*/
+/*=================================*/
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+
+}
+
+
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+}
+
+.col-1, .col-3 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 50%;
+	margin: 0 1.5rem;
+}
