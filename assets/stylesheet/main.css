@@ -91,3 +91,34 @@ h2 {
 	width: 50%;
 	margin: 0 1.5rem;
 }
+.header-top {
+	width: 25%;
+	height: 12.5%;
+	background-color: dodgerblue;
+	position: relative;
+
+}
+.profile-image-styling {
+	position: absolute;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
