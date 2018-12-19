@@ -4,8 +4,6 @@
 	--text-color2: #fff;
 	--bg-color: #1e252d;
 	--accent-color: #18bfef;
-	--heading-font: 'Source Sans Pro', serif;
-	--text-font: 'Merriweather', sans-serif;
 	font-size: 16px;
 }
 
@@ -159,6 +157,7 @@ p {
 /*=======================================*/
 /*  Clearfix */
 /*=======================================*/
+
 .cf:before, .cf:after {
 	content: '';
 	display: table;
@@ -169,3 +168,8 @@ p {
 .cf {
 	*zoom: 1;
 }
+
+
+/*==================================*/
+	/*main css*/
+/*==================================*/
