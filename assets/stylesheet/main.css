@@ -141,6 +141,22 @@ p {
 	float: right;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.inline-blk {
+	display: inline-block;
+}
+
+input, button {
+	border: 0;
+}
+
+input, button:focus {
+	outline: 0;
+}
 /*=================================*/
 /*	General Css		*/
 /*=================================*/
@@ -173,3 +189,36 @@ p {
 /*==================================*/
 	/*main css*/
 /*==================================*/
+
+
+		/*header section*/
+
+
+.header {
+	position: relative;
+	line-height: 3rem;
+}
+
+.profile-pic {
+	height: 2.4rem;
+	width: 2.4rem;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.menu {
+	display: inline-block;
+	color: var(--text-color)
+}
+
+.menu i,
+.right-nav-items i {
+	color: ;
+}
+
+ul~i{
+	color: var(--accent-color)
+}
+.menu:hover {
+	border-bottom: 2px solid var(--accent-color);
+}
