@@ -1,6 +1,19 @@
-/*		css reset 		*/
 
+:root {
+	--text-color: #212931;
+	--text-color2: #fff;
+	--bg-color: #1e252d;
+	--accent-color: #18bfef;
+	--heading-font: 'Source Sans Pro', serif;
+	--text-font: 'Merriweather', sans-serif;
+	font-size: 16px;
+}
 
+/*
+  ========================================
+  Css Reset
+  ========================================
+*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -51,37 +64,88 @@ table {
 	border-spacing: 0;
 }
 
-/* =================================== */
-		
-
-/* =================================== */
-
-:root{
-	 font-size: 16px;
-}
 
 
 
 
 /*=================================*/
-/*	general css		*/
+/*	Base Css		*/
 /*=================================*/
 
 h1 {
-	font-size: 3rem;
+    font-size: 5rem;
+    line-height: 1.5;
 }
-
 h2 {
-
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h6 {
+    font-size: 0.6rem;
+    line-height: 1.5;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
-
+/*=================================*/
+/*	General Css		*/
+/*=================================*/
 
 .wrapper {
 	margin: 0 auto;
 	max-width: 1400px;
 	width: 100%;
 }
+
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+
+/*=================================*/
+/*	General Css		*/
+/*=================================*/
 
 .col-1, .col-3 {
 	width: 25%;
@@ -90,4 +154,18 @@ h2 {
 .col-2 {
 	width: 50%;
 	margin: 0 1.5rem;
+}
+
+/*=======================================*/
+/*  Clearfix */
+/*=======================================*/
+.cf:before, .cf:after {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
 }
