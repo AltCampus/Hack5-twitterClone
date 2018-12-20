@@ -7,142 +7,396 @@
 	    <!-- font awesome -->
 	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-
-	    <!-- google fonts -->
-
-
-
+	    <!-- css stylesheet -->
 	    <link rel="stylesheet" href="assets/stylesheet/main.css">
 
-
+	    <!-- google fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
 	</head>
 
 
 	<body>
-
 		<header class="header">
-
-			<dir class="wrapper cf">
-				
+			<div class="wrapper cf">
+				<!-- left nav -->
 				<ul class="primary nav float-left">
-					
 					<li class="menu">
-						<a href="#"><i class="fas fa-home"></i>home</a>
+						<a class="active menu-link" href="#"><i class="fas fa-home"></i>home</a>
 					</li><!-- 
 					 --><li class="menu">
-						<a href="#">
+						<a class="menu-link" href="#">
 							<i class="fas fa-bolt"></i>moments</a>
 						</li><!-- 
 					 --><li class="menu">
-						<a href="#">
+						<a class="menu-link" href="#">
 							<i class="far fa-bell"></i>notifications</a>
 						</li><!-- 
 					 --><li class="menu">
-						<a href="#">
+						<a class="menu-link" href="#">
 							<i class="far fa-envelope"></i>messages</a>
 						</li>
-
 				</ul>
 
-				<a href="#">
+				<!-- logo -->
+				<a class="logo" href="#">
 					<i class="center fab fa-twitter"></i>
 				</a>
 
+				<!-- right nav -->
 				<div class="right-nav-items float-right">
-
 					<div class="search-box inline-blk">
-
-						<input class="center" type="text" name="search" placeholder="search twitter">
-
-
-						<a href="#"><i class="center fas fa-search"></i></a>
-
-
+						<input class="search-input" type="text" name="search" placeholder="search twitter">
+						<button class="search-icon">
+							<i class="fas fa-search"></i>
+						</button>
 					</div>
 
-					<!-- img -->
+					<!--profile img -->
 					<a href="#">
 						<img class="profile-pic" src="assets/media/profile.jpg">
 					</a>
-
-					<button>tweet</button>
-
+					<button class="btn header-btn" type="submit">tweet</button>
 				</div>
-
-			</dir>
-
+			</div>
 		</header>
 
-		<main>
+		<main class="main">
 
-			<div class=" wrapper">
-			<!-- profile section designing -->
-
+			
+			<!-- left aside section -->
 			<div class=" wrapper cf">
-                
 
 				<aside class="col col-1">
+
 					<div class="header-top">
+
 						<div class="blue-bg">
 							<img class="profile-image-styling" src="assets/media/profile.jpg">
-							</div>
-						<div class="white-bg">
-							<a class="profile-anchor-element primary" href="#">kirankumar11</a>
-							<a class="profile-anchor-element secondary" href="#">@kiran__kumaar</a>
-							<table>
-							<thead>
+						</div>
+
+					</div>
+					<div class="white-bg">
+						<a class="profile-anchor-element primary" href="#">Kirankumar11</a>
+						<a class="profile-anchor-element secondary" href="#">@kiran__kumaar</a>
+						<table>
+								<thead>
+									<tr>
+										<td>
+											<a class="tweet-following-followers-anchors" href="#">Tweets</a>
+										</td>
+										<td>
+											<a class="tweet-following-followers-anchors" href="#">Following</a>
+										</td>
+										<td>
+											<a class="tweet-following-followers-anchors" href="#">Followers</a>
+										</td>
+									</tr>
+								</thead>
 								<tr>
 									<td>
-										<a class="tweet-following-followers-anchors" href="#">Tweets</a>
+										<a class="tweet-following-followers-anchors counts" href="#">0</a>
 									</td>
 									<td>
-										<a class="tweet-following-followers-anchors" href="#">Following</a>
+										<a class="tweet-following-followers-anchors counts" href="#">26</a>
 									</td>
 									<td>
-										<a class="tweet-following-followers-anchors" href="#">Followers</a>
+										<a class="tweet-following-followers-anchors counts" href="#">11</a>
 									</td>
 								</tr>
-							</thead>
-							<tr>
-								<td>
-									<a class="tweet-following-followers-anchors counts" href="#">0</a>
-								</td>
-								<td>
-									<a class="tweet-following-followers-anchors counts" href="#">26</a>
-								</td>
-								<td>
-									<a class="tweet-following-followers-anchors counts" href="#">11</a>
-								</td>
-							</tr>
 						</table>
 					</div>
-						<div class="Trends-for-you">
-							<h2 class="sub-header">Trends for you</h2>
-							<a class="counts changing-trend-profile" href="#">change</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/hashtag/GSLVF11?src=tren"><h5 class="trend-anchor-color">#GSLVF11</h5>6584 Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/hashtag/GSAT7A?src=tren"><h5 class="trend-anchor-color">#GSAT7A</h5>10.3k Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/hashtag/ISRO?src=tren"><h5 class="trend-anchor-color">#ISRO</h5>2430 Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/search?q=Mourinho&src=tren"><h5 class="trend-anchor-color">Mourinho</h5>427k Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/search?q=Solskjaer&src=tren"><h5 class="trend-anchor-color">Solskjaer</h5>165k Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/search?q=Jose&src=tren"><h5 class="trend-anchor-color">Jose</h5>409k Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/hashtag/WednesdayWisdom?src=tren"><h5 class="trend-anchor-color">WednesdayWisdom</h5>44k Tweets</a>
-							<a class="trends-anchor-elements" href="#"><h5 class="trend-anchor-color">Flipkart</h5>3405 Tweets</a>
-							<a class="trends-anchor-elements" href="https://twitter.com/hashtag/Varunsays?src=tren"><h5 class="trend-anchor-color">Varunsays</h5>7698 Tweets</a>
-					 </div>
-					
-					
 
-					</div>
+					<div class="Trends-for-you">
 
-					
+						<h2 class="sub-header">Trends for you</h2>
+						<a class="counts changing-trend-profile" href="#">change</a>
+						<a class="trends-anchor-elements" href="https://twitter.com/hashtag/GSLVF11?src=tren"><h5 class="trend-anchor-color">#GSLVF11</h5>6584 Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/hashtag/GSAT7A?src=tren"><h5 class="trend-anchor-color">#GSAT7A</h5>10.3k Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/hashtag/ISRO?src=tren"><h5 class="trend-anchor-color">#ISRO</h5>2430 Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/search?q=Mourinho&src=tren"><h5 class="trend-anchor-color">Mourinho</h5>427k Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/search?q=Solskjaer&src=tren"><h5 class="trend-anchor-color">Solskjaer</h5>165k Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/search?q=Jose&src=tren"><h5 class="trend-anchor-color">Jose</h5>409k Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/hashtag/WednesdayWisdom?src=tren"><h5 class="trend-anchor-color">WednesdayWisdom</h5>44k Tweets</a>
+
+						<a class="trends-anchor-elements" href="#"><h5 class="trend-anchor-color">Flipkart</h5>3405 Tweets</a>
+
+						<a class="trends-anchor-elements" href="https://twitter.com/hashtag/Varunsays?src=tren"><h5 class="trend-anchor-color">Varunsays</h5>7698 Tweets</a>
+
+				 	</div>
 
 				</aside>
 
+
+				<!-- col-2 article section -->
 				<article class="col col-2">
 
 
+					<div class="col-2-input-sec">
 
+						<!--profile img -->
+						<a href="#">
+							<img class="profile-pic" src="assets/media/profile.jpg">
+						</a>
+
+						<div class="col-2-input-box inline-blk">
+
+							<input class="col-2-input inline-blk" type="text" name="tweet" placeholder="what's happening?">
+
+							<i class="far fa-image"></i>
+
+					</div>
+
+					</div>
+
+					<div class="tweet-notifcations text-center">
+
+						<a href="#">see 1 new tweet </a>
+						
+					</div>
+
+					<div class="col-2-tweet-box">
+						
+						<a href="#">
+							<img class="mid-sec-dp profile-pic" src="assets/media/pic2.jpeg" alt="person-pic">
+						</a>
+
+						<div class="new-tweet container inline-blk">
+
+							<span class="user-id"><strong>sajan</strong>@sajan123</span>
+							<span>.6m</span>
+
+							<p>
+								Interested in launching a <a href="#">#bugbounty</a> program at your organization? Complete this form to try a free trial and see how crowdsourced testing can reinforce your security: 
+								<a href="#">
+									http://hacken.live/2Pl6A1W
+								</a>
+							</p>
+
+							<ul class="tweet-response-icons">
+
+								<li class="sec-nav">
+									<a href="#">
+										<i class="far fa-comment"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="#">
+										<i class="fas fa-retweet"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-heart"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-chart-bar"></i>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+
+					</div>
+
+					<!-- nwe tweet -->
+					<div class="col-2-tweet-box">
+						<a href="#">
+							<img class="mid-sec-dp profile-pic" src="assets/media/ranveer.jpeg">
+						</a>
+						<div class="new-tweet container inline-blk">
+							<span class="user-id"><strong>sam</strong>@singh.ranveer</span>
+							<span>.6m</span>
+
+							<p>
+								Interested in launching a <a href="#">#bugbounty</a> program at your organization? Complete this form to try a free trial and see how crowdsourced testing can reinforce your security: 
+								<a href="#">
+									http://hacken.live/2Pl6A1W
+								</a>
+							</p>
+
+							<img width="100%" src="assets/media/pic1.jpg">
+
+							<ul class="tweet-response-icons">
+
+								<li class="sec-nav">
+									<a href="#">
+										<i class="far fa-comment"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="#">
+										<i class="fas fa-retweet"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-heart"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-chart-bar"></i>
+									</a>
+								</li>
+								
+							</ul>
+
+						</div>
+					</div>
+
+					<!-- new tweet sec -->
+					<div class="col-2-tweet-box">
+						
+						<a href="#">
+							<img class="mid-sec-dp profile-pic" src="assets/media/bodafone.png">
+						</a>
+
+						<div class="new-tweet container inline-blk">
+
+							<span class="user-id"><strong>vodafone</strong>@vodafone.services</span>
+							<span>.6m</span>
+
+							<p>
+								Interested in launching a <a href="#">#bugbounty</a> program at your organization? Complete this form to try a free trial and see how crowdsourced testing can reinforce your security: 
+								<a href="#">
+									http://hacken.live/2Pl6A1W
+								</a>
+							</p>
+
+							<img width="100%" src="assets/media/images.jpeg">
+
+							<ul class="tweet-response-icons">
+
+								<li class="sec-nav">
+									<a href="#">
+										<i class="far fa-comment"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="#">
+										<i class="fas fa-retweet"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-heart"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-chart-bar"></i>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+
+					</div>
+
+					<!-- new tweet sec -->
+
+
+					<div class="col-2-tweet-box">
+						<a href="#">
+							<img class="mid-sec-dp profile-pic" src="assets/media/profile.jpg">
+						</a>
+						<div class="new-tweet container inline-blk">
+							<span class="user-id"><strong>sajan</strong>@sajan123</span>
+							<span>.6m</span>
+
+							<p>
+								Interested in launching a <a href="#">#bugbounty</a> program at your organization? Complete this form to try a free trial and see how crowdsourced testing can reinforce your security: 
+								<a href="#">
+									http://hacken.live/2Pl6A1W
+								</a>
+							</p>
+
+							<img width="100%" src="assets/media/profile.jpg">
+
+							<ul class="tweet-response-icons">
+
+								<li class="sec-nav">
+									<a href="#">
+										<i class="far fa-comment"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="#">
+										<i class="fas fa-retweet"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-heart"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-chart-bar"></i>
+									</a>
+								</li>
+								
+							</ul>
+
+						</div>
+
+					</div>
+
+						<!-- nwe tweet -->
+					<div class="col-2-tweet-box">
+						<a href="#">
+							<img class="mid-sec-dp profile-pic" src="assets/media/ranveer.jpeg">
+						</a>
+						<div class="new-tweet container inline-blk">
+							<span class="user-id"><strong>sam</strong>@singh.ranveer</span>
+							<span>.6m</span>
+
+							<p>
+								Interested in launching a <a href="#">#bugbounty</a> program at your organization? Complete this form to try a free trial and see how crowdsourced testing can reinforce your security: 
+								<a href="#">
+									http://hacken.live/2Pl6A1W
+								</a>
+							</p>
+
+							<img width="100%" src="assets/media/ranveer.jpeg">
+
+							<ul class="tweet-response-icons">
+
+								<li class="sec-nav">
+									<a href="#">
+										<i class="far fa-comment"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="#">
+										<i class="fas fa-retweet"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-heart"></i>
+									</a>
+								</li>
+								<li class="sec-nav">
+									<a href="">
+										<i class="far fa-chart-bar"></i>
+									</a>
+								</li>
+								
+							</ul>
+
+						</div>
+					</div>
         </article>
+
 
         <!-- Aside Right -->
 				<aside class=" col col-3">
@@ -155,12 +409,9 @@
             <a href="#">view all</a>
             <small>.</small>
         	</div>
-
 				</aside>
 
 			</div>
-
-
 		</main>
 	        
 	</body>
